@@ -1,0 +1,7 @@
+We are going to be using the module "Image" from the library PIL / python imaging library.
+
+Firstly we get a handle to the image.
+
+Then we get the pixels by using the "load()" function; which is just the last x and y of the image for each axis.
+
+Then we loop through each of the pixel by incrementing y on each time the loop get executed, then setting y back to 0 and incrementing x by 1 when the y is out of bounds
